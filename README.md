@@ -37,7 +37,9 @@ El factorial se utiliza mucho en:
 -Álgebra y análisis matemático
 
 #22-09
+
 #Continuacion
+
 ##Mostrar los numeros del 5 al 1 por pantalla
 
     fun contarRegresivo (n: int)
