@@ -36,24 +36,25 @@ El factorial se utiliza mucho en:
 -Series matemáticas
 -Álgebra y análisis matemático
 
-22-09
+#22-09
+#Continuacion
 ##Mostrar los numeros del 5 al 1 por pantalla
 
-fun contarRegresivo (n: int)
-{
+    fun contarRegresivo (n: int)
+    {
     if(n==0)
-  { 
-    return
+    { 
+        return
     }
-    else
- {
- print(n)
- contarRegresivo(n-1)
- }
- }
- fun main()
- {
- contarRegresivo(s)
- }
+        else
+     {
+     print(n)
+         contarRegresivo(n-1)
+     }
+     }
+         fun main()
+     {
+         contarRegresivo(s)
+     }
  
  
