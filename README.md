@@ -40,7 +40,8 @@ El factorial se utiliza mucho en:
 
 # Continuacion
 
-## Mostrar los numeros del 5 al 1 por pantalla
+## Actividad
+Mostrar los numeros del 5 al 1 por pantalla
 
     fun contarRegresivo (n: int)
     {
@@ -58,5 +59,23 @@ El factorial se utiliza mucho en:
      {
          contarRegresivo(s)
      }
- 
- 
+
+ ## 23-09
+## Actividad
+Suma de los primeros numeros
+
+    fun suma (n:int)
+    {
+    if(n==0)
+    { 
+     return 0
+      }
+      else
+     {
+     return n+suma(n-1)
+     }
+     }
+     fun main ()
+       { 
+        println(suma(s))
+    }
