@@ -86,7 +86,7 @@ Suma de los primeros numeros
 Crear una ventana de 400x300
 
     import tkinter as tk
-    ventanatk.tk()
+    ventana=tk.tk()
     ventana.title("Mi ventana")
-    ventana.geometry/"400x300")
+    ventana.geometry("400x300")
     ventana.mainloop()
