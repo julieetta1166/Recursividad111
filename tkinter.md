@@ -2,7 +2,7 @@
 ### Tkinter
 ## Actividad
 Crear una ventana de 400x300
-  import tkinter astk
+import tkinter as tk
   ventanatk.tk()
   ventana.title("Mi ventana")
   ventana.geometry/"400x300")
