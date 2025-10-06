@@ -90,3 +90,22 @@ Crear una ventana de 400x300
     ventana.title("Mi ventana")
     ventana.geometry("400x300")
     ventana.mainloop()
+
+## 03/10
+# Boton
+
+    def saludar():
+        print("Hola")
+    boton=tk.Button(ventana, text="Saludar",commandsaludar)
+    boton.pack()
+
+# Label
+
+    label=tk.Label(root, text="Hola". font=("Arial", 14))
+    label.pack()
+
+# Entry(input)
+
+    entrada=tk.Entry(root)
+    entrada.pack()   #pide al usuario
+    texto=entrada.get() #obtener el valor
