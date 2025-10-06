@@ -101,7 +101,7 @@ Crear una ventana de 400x300
 
 # Label
 
-    label=tk.Label(root, text="Hola". font=("Arial", 14))
+    label=tk.Label(root, text="Hola", font=("Arial", 14))
     label.pack()
 
 # Entry(input)
