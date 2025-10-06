@@ -96,7 +96,7 @@ Crear una ventana de 400x300
 
     def saludar():
         print("Hola")
-    boton=tk.Button(ventana, text="Saludar",commandsaludar)
+    boton=tk.Button(ventana, text="Saludar",command=saludar)
     boton.pack()
 
 # Label
