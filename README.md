@@ -81,8 +81,8 @@ Suma de los primeros numeros
     }
 
 ## 29-09
-## Tkinter
-# Actividad
+# Tkinter
+## Actividad
 Crear una ventana de 400x300
 
     import tkinter as tk
