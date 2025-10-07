@@ -1,5 +1,3 @@
-sumar dos numeros y mostrar resultado. Utilizar tkinter
-
 import tkinter as tk
 ventana=tk.Tk()
 ventana.title("Mi ventana")
@@ -9,17 +7,17 @@ label=tk.Label(ventana, text="Ingresar numero: ", font=("Arial", 14))
 label.pack()
 
 entrada=tk.Entry(ventana)
-entrada.pack()   #pide al usuario
-texto=entrada.get() #obtener el valor
+entrada.pack()   
 
-entrada=tk.Entry(ventana)
-entrada.pack()   #pide al usuario
-texto=entrada.get() #obtener el valor
+entrada2=tk.Entry(ventana)
+entrada2.pack()   
 
 def saludar():
-    print("Resultado:")
+    num1 = float(entrada.get())
+    num2 = float(entrada2.get())
+    suma = num1 + num2
+    print(suma)
 boton=tk.Button(ventana, text="Suma",command=saludar)
 boton.pack()
-
 
 ventana.mainloop()
