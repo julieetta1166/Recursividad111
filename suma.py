@@ -1,3 +1,6 @@
+07/10
+Actividad: Sumar dos numeros y mostrar el resultado(utilizar tkinter, dos entry, un boton y un label que diga"Ingresar numero:")
+
 import tkinter as tk
 ventana=tk.Tk()
 ventana.title("Mi ventana")
