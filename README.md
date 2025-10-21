@@ -110,7 +110,16 @@ Crear una ventana de 400x300
     entrada.pack()   #pide al usuario
     texto=entrada.get() #obtener el valor
 
-Combobox
-Actividad:
-Crear una opción para cada operación matemática básica (+,-,/,*)
+# Combobox
 
+import tkinter as tk
+
+from tkinter import ttk
+
+root= tk.Tk()
+combo= ttk.Combobox( root, values= [ "uno", "dos" , "tres"  ] )
+                                    
+combo.current(0)
+combo.pack()
+
+root.mainloop()
