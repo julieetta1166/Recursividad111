@@ -109,7 +109,7 @@ Crear una ventana de 400x300
     entrada=tk.Entry(root)
     entrada.pack()   #pide al usuario
     texto=entrada.get() #obtener el valor
-
+## 20/10
 # Combobox
 
 import tkinter as tk
@@ -123,3 +123,11 @@ combo.current(0)
 combo.pack()
 
 root.mainloop()
+
+## 21/10
+# Check Button 
+import tkinter as tk
+ventana= tk.Tk()
+var=tk.intVar()
+tk.Checkbutton(ventana, text= “Activar”, variable=var).pack()
+ventana.mainloop()
