@@ -109,3 +109,8 @@ Crear una ventana de 400x300
     entrada=tk.Entry(root)
     entrada.pack()   #pide al usuario
     texto=entrada.get() #obtener el valor
+
+Combobox
+Actividad:
+Crear una opción para cada operación matemática básica (+,-,/,*)
+
